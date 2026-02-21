@@ -1,0 +1,16 @@
+[2026-02-21 17:28:07] PING 2
+Ping failed: Host unreachable or request timed out.----------------------------------------
+[2026-02-21 17:29:51] PING  google.com
+Ping failed: Host unreachable or request timed out.----------------------------------------
+[2026-02-21 17:31:25] PING google.com
+
+Pinging google.com [142.250.137.138] with 32 bytes of data:
+Reply from 142.250.137.138: bytes=32 time=17ms TTL=110
+Reply from 142.250.137.138: bytes=32 time=19ms TTL=110
+Reply from 142.250.137.138: bytes=32 time=23ms TTL=110
+
+Ping statistics for 142.250.137.138:
+    Packets: Sent = 3, Received = 3, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 17ms, Maximum = 23ms, Average = 19ms
+----------------------------------------

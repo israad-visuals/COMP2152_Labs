@@ -1,0 +1,8 @@
+2026-02-21 17:28:07,ping,2,N/A,Failed
+2026-02-21 17:28:18,nslookup,dhawr.com,Not found,Failed
+2026-02-21 17:29:51,ping, google.com,N/A,Failed
+2026-02-21 17:30:19,nslookup,github.com,Not found,Failed
+2026-02-21 17:31:25,ping,google.com,19,Success
+2026-02-21 17:31:38,nslookup,google.com,Not found,Failed
+2026-02-21 17:31:49,ipconfig,all,E0-70-EA-A8-0D-14 / 192.168.56.1,Captured
+2026-02-21 17:32:00,arp,local,20 devices,Captured
