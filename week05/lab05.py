@@ -1,6 +1,6 @@
 # Week 05 Lab: Recursion & Functions
 # COMP2152 - Python Programming
-# Last Name: Ismail
+# Last Name: Abdi
 # First Name: Ismail
 # Student ID: 101580272
 

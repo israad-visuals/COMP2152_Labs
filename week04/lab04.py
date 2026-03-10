@@ -225,8 +225,8 @@ def two_sum_brute_force(numbers, target):
 
 # Part B: Optimized with Dictionary
 def two_sum_optimized(numbers, target):
-    seen = {}  # Dictionary to store {number: index}
-    # Loop through numbers, check if needed value exists in seen
+    seen = {}
+    
     for i in range(len(numbers)):
         needed = target - numbers[i]
         if needed in seen:
@@ -262,11 +262,11 @@ for numbers, target in test_cases:
 # ============================================
 
 def shuffle_array(nums, n):
-    # Step 1: Split into two halves using slicing
+
     first_half = nums[:n]
     second_half = nums[n:]
 
-    # Step 2: Create empty result list
+
     result = []
 
     # Step 3: Interleave using a for loop
@@ -304,7 +304,7 @@ for nums, n in test_cases_shuffle:
 # Helper function: Count all characters in a string
 def count_characters(s):
     counts = {}
-    # Loop through string and count each character
+
     for char in s:
         if char in counts:
             counts[char] += 1
@@ -314,15 +314,15 @@ def count_characters(s):
 
 # Main function: Find first unique character
 def first_unique_character(s):
-    # Step 1: Get character counts using helper function
+
     char_counts = count_characters(s)
 
-    # Step 2: Loop through string with index to find first unique
+
     for i in range(len(s)):
         if char_counts[s[i]] == 1:
             return i
 
-    # Step 3: Return -1 if no unique character found
+
     return -1
 
 # Test cases
